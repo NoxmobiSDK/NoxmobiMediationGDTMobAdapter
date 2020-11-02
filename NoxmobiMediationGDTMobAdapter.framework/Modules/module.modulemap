@@ -1,0 +1,6 @@
+framework module NoxmobiMediationGDTMobAdapter {
+  umbrella header "NoxmobiMediationGDTMobAdapter.h"
+
+  export *
+  module * { export * }
+}
