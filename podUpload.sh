@@ -57,7 +57,7 @@ then
         echo "\n🔥开始删除原索引\n"
         rm ~/Library/Caches/CocoaPods/search_index.json
         echo "\n🔥开始第一次search\n\n"
-        searchRes1=`pod search $PodName`
+        searchRes1=`wpod search $PodName`
         echo "$searchRes1"
         echo "\n🔥开始pod repo update\n\n"
         repoUpdateRes=`pod repo update`
