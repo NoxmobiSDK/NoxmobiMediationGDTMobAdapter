@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationGDTMobAdapter"
-  spec.version      = "4.12.1.0" # Mark
+  spec.version      = "4.12.3.0" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for GDTMob."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationGDTMobAdapter"
   spec.license      = "MIT"
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'NoxmobiMediationGDTMobAdapter.framework'
   spec.requires_arc = true
 
-  spec.dependency "GDTMobSDK", "4.12.1"
+  spec.dependency "GDTMobSDK", "4.12.3"
 
 end

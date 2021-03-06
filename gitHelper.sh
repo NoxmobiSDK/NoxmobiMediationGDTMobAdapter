@@ -12,6 +12,13 @@ srcVer=${currentLine#*\"}
 srcVer=${srcVer%%\"*}
 echo "$srcVer"
 
+echo "\n🔥是否继续执行?[y/n]"
+read flag
+if [[ "$flag" != "y" ]]
+then
+    exit 101
+fi
+
 #一顿Git操作
 echo "\n🔥添加到暂存区 git add . ："
 gitAddRes=`git add .`
