@@ -9,6 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define NoxmobiMediationGDTMobAdapterVersion @"4.12.3.0"
+#define NoxmobiMediationGDTMobAdapterVersion @"4.12.60.0"
 
 
